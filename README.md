@@ -12,3 +12,7 @@ This repository provides the approach to build the project on AWS Virtual Privat
 8. Then choose the end point (S3 Gateway) - But we used none in this project, we have only the internet gateway(igw) only which is necessary and default.
 9. Enable both DNS options.
 10. Then create Create VPC .
+
+You will get your Resource Map, you can go through it for understanding the flows and connection in your VPC.
+![Resource Map](https://github.com/user-attachments/assets/c98db7d9-afb4-4ad2-a5e4-16e1996a35cd)
+
