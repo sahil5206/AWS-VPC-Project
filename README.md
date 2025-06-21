@@ -2,7 +2,7 @@
 This repository provides the approach to build the project on AWS Virtual Private Cloud (VPC).
 
 We will follow the following diagram for making our VPC Project.
-![Screenshot (13)](https://github.com/user-attachments/assets/2f81739c-2742-4a60-857e-2d0389112c5e)
+![Diagram of the VPC Project](https://github.com/user-attachments/assets/2f81739c-2742-4a60-857e-2d0389112c5e)
 
 
 #FIRST STEP - CREATING THE VPC
