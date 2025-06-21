@@ -11,4 +11,4 @@ This repository provides the approach to build the project on AWS Virtual Privat
 7. Enter the number of NAT gateways - we have not used NAT gatewasy in our project as it is a paid service and does not provide a free-tier.
 8. Then choose the end point (S3 Gateway) - But we used none in this project, we have only the internet gateway(igw) only which is necessary and default.
 9. Enable both DNS options.
-10. Then create [Create VPC] .
+10. Then create {Create VPC} .
