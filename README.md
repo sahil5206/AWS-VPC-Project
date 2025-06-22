@@ -5,7 +5,7 @@ We will follow the following diagram for making our VPC Project.
 ![Diagram of the VPC Project](https://github.com/user-attachments/assets/2f81739c-2742-4a60-857e-2d0389112c5e)
 
 
-#FIRST STEP - CREATING THE VPC
+# FIRST STEP - CREATE THE VPC
 1. Go to the AWS VPC service and click Create VPC .
 2. Select 'VPC and more' and provide the name for your VPC.
 3. Provide the IP Address Range (for 65,536 IPs, enter 10.0.0.0/16).
@@ -20,3 +20,7 @@ We will follow the following diagram for making our VPC Project.
 You will get your Resource Map, you can go through it for understanding the flows and connection in your VPC.
 ![Resource Map](https://github.com/user-attachments/assets/c98db7d9-afb4-4ad2-a5e4-16e1996a35cd)
 
+# SECOND STEP - CREATE EC2 INSTANCES IN THE PRIVATE SUBNET
+1. Go to the EC2 service dashboard and create two EC2 instances(private) one in each availability zones.
+2. you will see that you there is no public IP Address of those private subnet instances.
+3. 
