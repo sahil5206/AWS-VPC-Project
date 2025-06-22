@@ -27,4 +27,4 @@ You will get your Resource Map, you can go through it for understanding the flow
 4. Use the same 'Key-Pair' for every instance in this VPC project.
 5. Deploy your application in the private Instance - We have the deployed the basic html page(code provided in this repository).
  But you cannot access the private instance directly
-6. Copy the Key-Pair's .pem file to the Batsio Host Instance manually. 
+6. Copy the Key-Pair's .pem file to the Batsion Host Instance manually. 
