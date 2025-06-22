@@ -23,8 +23,10 @@ You will get your Resource Map, you can go through it for understanding the flow
 # SECOND STEP - CREATE EC2 INSTANCES IN THE PRIVATE SUBNET
 1. Go to the EC2 service dashboard and create two EC2 instances(private) one in each availability zones.
 2. you will see that you there is no public IP Address of those private subnet instances.
-3. bu you cannot access those private instances directly, you have to create a public instances named - 'Bastion Host' or 'Jump Server'.
+3. bu you cannot access those private instances directly, you have to create a public instances named - 'Bastion Host' or 'Jump Server'.![EC2 Instances](https://github.com/user-attachments/assets/33817fff-4323-4690-ad5b-31979f73db20)
+
 4. Use the same 'Key-Pair' for every instance in this VPC project.
 5. Deploy your application in the private Instance - We have the deployed the basic html page(code provided in this repository).
  But you cannot access the private instance directly
 6. Copy the Key-Pair's .pem file to the Batsion Host Instance manually. 
+![.pem file in Bastion Host](https://github.com/user-attachments/assets/2c9fba92-6c4d-468e-ac6b-88f6a4bf9343)
