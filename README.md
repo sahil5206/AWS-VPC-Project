@@ -36,4 +36,4 @@ You will get your Resource Map, you can go through it for understanding the flow
 
    `chmod 400 your-key.pem`
    
-`ssh -i your-key.pem ec2-user@<Bastion-Public-IP> `
+   `ssh -i your-key.pem ubuntu@<Bastion-Public-IP> `
