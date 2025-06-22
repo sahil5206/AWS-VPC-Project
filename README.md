@@ -38,4 +38,4 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 7. Copy the Key-Pair's .pem file to the Bastion Host Instance manually.
    <pre><code>vim your-key.pem</code></pre> 
 
-8. Now your PC is connected with the Bastion Host Instance
+8. Now your PC is connected with the Bastion Host Instance, the next step is to access the private subnet instances through the Bastion Host.
