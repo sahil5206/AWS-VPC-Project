@@ -34,6 +34,5 @@ You will get your Resource Map, you can go through it for understanding the flow
 
 7. use the following command for connecting your PC with the Bastion Host
 
-  <pre><code> ```chmod 400 your-key.pem```</code></pre>
-   
-   ```ssh -i your-key.pem ubuntu@<Bastion-Public-IP> ```
+  <pre><code>chmod 400 your-key.pem
+             ssh -i your-key.pem ubuntu@<Bastion-Public-IP></code></pre>
