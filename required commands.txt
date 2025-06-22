@@ -1,0 +1,8 @@
+# To connect your PC to your Bastion Host Insatnce
+
+chmod 400 your-key.pem
+ssh -i your-key.pem ubuntu@Bastion-Public-IP 
+
+# To create a file in the instance(Bastion Host) or to upload any file for your application in the private instance - use 'vim'
+
+vim your-key.pem
