@@ -31,3 +31,7 @@ You will get your Resource Map, you can go through it for understanding the flow
 6. Copy the Key-Pair's .pem file to the Batsion Host Instance manually. 
 
 ![.pem file in Bastion Host](https://github.com/user-attachments/assets/33817fff-4323-4690-ad5b-31979f73db20)
+
+7. use the following command for connecting your PC with the Bastion Host
+  ''' chmod 400 your-key.pem
+ssh -i your-key.pem ec2-user@<Bastion-Public-IP> '''
