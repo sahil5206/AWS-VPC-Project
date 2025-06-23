@@ -40,7 +40,7 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 
 8. Now your PC is connected with the Bastion Host Instance, the next step is to access the private subnet instances through the Bastion Host. From the Bastion Host, run the following command from the Bastion Host
    
- <pre><code>ssh -i bastion-key.pem ec2-user@10.0.1.25</code></pre>
+ <pre><code>ssh -i your-key.pem ubuntu@10.0.1.25</code></pre>
  
 9. Make sure to add Security Groups to the instances for the security at the instance level.(You can also add the NACL for the subnet level security).
 
