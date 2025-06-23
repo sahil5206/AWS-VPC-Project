@@ -5,7 +5,7 @@ We will follow the following diagram for making our VPC Project.
 ![Diagram of the VPC Project](https://github.com/user-attachments/assets/2f81739c-2742-4a60-857e-2d0389112c5e)
 
 
-# FIRST STEP - CREATE THE VPC
+# 1️⃣	 FIRST STEP - CREATE THE VPC
 1. Go to the AWS VPC service and click Create VPC .
 2. Select 'VPC and more' and provide the name for your VPC.
 3. Provide the IP Address Range (for 65,536 IPs, enter 10.0.0.0/16).
@@ -20,7 +20,7 @@ We will follow the following diagram for making our VPC Project.
 You will get your Resource Map, you can go through it for understanding the flows and connection in your VPC.
 ![Resource Map](https://github.com/user-attachments/assets/c98db7d9-afb4-4ad2-a5e4-16e1996a35cd)
 
-# SECOND STEP - CREATE EC2 INSTANCES
+# 2️⃣ SECOND STEP - CREATE EC2 INSTANCES
 1. Go to the EC2 service dashboard and create two EC2 instances(private) one in each availability zones.
 2. you will see that you there is no public IP Address of those private subnet instances.
 3. bu you cannot access those private instances directly, you have to create a public instances named - 'Bastion Host' or 'Jump Server'.![EC2 Instances](https://github.com/user-attachments/assets/2c9fba92-6c4d-468e-ac6b-88f6a4bf9343)
@@ -41,7 +41,7 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 8. Now your PC is connected with the Bastion Host Instance, the next step is to access the private subnet instances through the Bastion Host.
 9. Make sure to add Security Groups to the instances for the security at the instance level.(You can also add the NACL for the subnet level security).
 
-# THIRD STEP - CREATE THE LOAD BALANCER AND TARGET GROUPS
+# 3️⃣ THIRD STEP - CREATE THE LOAD BALANCER AND TARGET GROUPS
 1. Go to the EC2 and scroll down for the Load Balancer
 2. click on Create Load Balancer, then select and create the 'Application Load Balancer' (We used this load balancer in this project).
 3. while creating the Load Balancer, also create the Target Group.
@@ -55,7 +55,7 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 
 📧 All my contact details are in my profile.
 
-Thank you..
+Thank you..❤️❤️
 Don't Compete...Let's Collaborate
 
 
