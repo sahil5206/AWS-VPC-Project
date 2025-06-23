@@ -1,4 +1,4 @@
-# AWS-VPC-Project
+# AWS-VPC-Project🚀🚀🚀
 This repository provides the approach to build the project on AWS Virtual Private Cloud (VPC).
 
 We will follow the following diagram for making our VPC Project.
@@ -43,4 +43,10 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 
 # THIRD STEP - CREATE THE LOAD BALANCER AND TARGET GROUPS
 1. Go to the EC2 and scroll down for the Load Balancer
-2. click on Create Load Balancer, then select and create the 'Application Load Balancer' (We used this load balancer in thsi project).
+2. click on Create Load Balancer, then select and create the 'Application Load Balancer' (We used this load balancer in this project).
+3. while creating the Load Balancer, also create the Target Group.
+4. choose the VPC in which you are currently working.
+5. In the target group, allow the inbound traffic range you want to allow to access your application.
+6.you are all set to access your application, go to your Load Balancer and copy the "DNS name" & paste it in your browser to see your application running on the AWS instances.
+
+
