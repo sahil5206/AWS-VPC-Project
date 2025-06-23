@@ -40,3 +40,7 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 
 8. Now your PC is connected with the Bastion Host Instance, the next step is to access the private subnet instances through the Bastion Host.
 9. Make sure to add Security Groups to the instances for the security at the instance level.(You can also add the NACL for the subnet level security).
+
+# THIRD STEP - CREATE THE LOAD BALANCER AND TARGET GROUPS
+1. Go to the EC2 and scroll down for the Load Balancer
+2. click on Create Load Balancer, then select and create the 'Application Load Balancer' (We used this load balancer in thsi project).
