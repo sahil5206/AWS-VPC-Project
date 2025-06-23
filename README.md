@@ -39,3 +39,4 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
    <pre><code>vim your-key.pem</code></pre> 
 
 8. Now your PC is connected with the Bastion Host Instance, the next step is to access the private subnet instances through the Bastion Host.
+9. Make sure to add Security Groups to the instances for the security at the instance level.(You can also add the NACL for the subnet level security).
