@@ -47,6 +47,8 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 3. while creating the Load Balancer, also create the Target Group.
 4. choose the VPC in which you are currently working.
 5. In the target group, allow the inbound traffic range you want to allow to access your application.
-6.you are all set to access your application, go to your Load Balancer and copy the "DNS name" & paste it in your browser to see your application running on the AWS instances.
+
+
+✅ you are all set to access your application, go to your Load Balancer and copy the "DNS name" & paste it in your browser to see your application running on the AWS instances.
 
 
