@@ -21,7 +21,7 @@ You will get your Resource Map, you can go through it for understanding the flow
 ![Resource Map](https://github.com/user-attachments/assets/c98db7d9-afb4-4ad2-a5e4-16e1996a35cd)
 
 # 2️⃣ SECOND STEP - CREATE EC2 INSTANCES
-1. Go to the EC2 service dashboard and create two EC2 instances(private) one in each availability zones.
+1. Go to the EC2 service dashboard and create two EC2 instances(private) one in each availability zones and make sure to enable auto scaling in your instances.
 2. you will see that you there is no public IP Address of those private subnet instances.
 3. bu you cannot access those private instances directly, you have to create a public instances named - 'Bastion Host' or 'Jump Server'.![EC2 Instances](https://github.com/user-attachments/assets/2c9fba92-6c4d-468e-ac6b-88f6a4bf9343)
 
