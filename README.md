@@ -59,6 +59,6 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 📧 All my contact details are in my profile.
 
 Thank you..❤️❤️
-Don't Compete...Let's Collaborate
+Don't Compete...Let's Collaborate🤝🤝
 
 
