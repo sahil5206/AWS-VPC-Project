@@ -1,3 +1,4 @@
+###################################################
 # To connect your PC to your Bastion Host Insatnce
 
 chmod 400 your-key.pem
