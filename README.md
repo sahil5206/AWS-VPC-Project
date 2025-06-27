@@ -27,9 +27,9 @@ You will get your Resource Map, you can go through it for understanding the flow
 
 4. Use the same 'Key-Pair' for every instance in this VPC project.
 5. Deploy your application in the private Instance - We have the deployed the basic html page(code provided in this repository).
- But you cannot access the private instance directly
+ But you cannot access the private instance directly.
 
-6.  use the following command for connecting your PC with the Bastion Host
+6.  use the following command for connecting your PC with the Bastion Host.
 
   <pre><code>chmod 400 your-key.pem
 ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
