@@ -1,5 +1,5 @@
 ###################################################
-# To connect your PC to your Bastion Host Insatnce
+# To connect your PC to your Bastion Host Insatnce.
 
 chmod 400 your-key.pem
 ssh -i your-key.pem ubuntu@Bastion-Public-IP 
