@@ -12,7 +12,7 @@ vim your-key.pem
 
 ####################################################
 
-# To connect the private instance after the connecting the Bastion Host with your PC
+# To connect the private instance after the connecting the Bastion Host with your PC.
 
 ssh -i your-key.pem ubuntu@(Private-Instance-Private-IPdAdress)
 
