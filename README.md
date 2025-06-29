@@ -26,7 +26,7 @@ You will get your Resource Map, you can go through it for understanding the flow
 3. bu you cannot access those private instances directly, you have to create a public instances named - 'Bastion Host' or 'Jump Server'.![EC2 Instances](https://github.com/user-attachments/assets/2c9fba92-6c4d-468e-ac6b-88f6a4bf9343)
 
 4. Use the same 'Key-Pair' for every instance in this VPC project.
-5. Deploy your application in the private Instance - We have the deployed the basic html page(code provided in this repository).
+5. Deploy your application in the private Instance - We have the deployed a basic html page(code provided in this repository).
  But you cannot access the private instance directly.
 
 6.  use the following command for connecting your PC with the Bastion Host.
