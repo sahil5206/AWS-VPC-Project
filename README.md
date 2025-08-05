@@ -53,6 +53,8 @@ ssh -i your-key.pem ubuntu@Bastion-Public-IP </code></pre>
 
 
 ✅ you are all set to access your application, go to your Load Balancer and copy the "DNS name" & paste it in your browser to see your application running on the AWS instances.
+<img width="1920" height="893" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/5b6aa812-d133-4713-92a2-a27bda2bc089" />
+
 
 🛠️If you are facing any errors in any part of the process, please feel free to share your errors and problems i will definitely try to resolve your issues.
 
